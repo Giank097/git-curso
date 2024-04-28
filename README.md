@@ -1,2 +1,2 @@
-#git-course
-#Este es un proyecto de prueba con git.
+#git-course-test
+#Este es un proyecto de prueba con GIT
