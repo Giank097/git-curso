@@ -1,0 +1,44 @@
+Qué es Git?
+
+Es un sistema de control de versiones que administra las distintas versiones de un programa.
+
+- Es un sistema de control distribuido.
+- Ayuda a coordinar el trabajo entre los multiples desarrolladores.
+- Mantiene un registro de quién y cuando se realizan cambios.
+- Tiene la caracteristica de poder revertir cambios en cualquier momento.
+- Nos brinda la capacidad de mantener nuestro repositorio de proyectos de forma local y remota.
+
+Conceptos básicos:
+
+- Mantiene un historial de código.
+- Toma "snapshots" de nuestro código.
+- Haciendo un "commit" realizaremos "snapshots" de nuestro código.
+- Podemos visitar cada "snapshot" en cualquier momento.
+- Podemos hacer "stage" de nuestros archivos antes realizar un "commit".
+
+Comandos básicos:
+
+git init: Para inicializar un repositorio de proyecto local.
+git add "file"/git add .: Para pasar nuestros archivos del "woking dir" al "staging area".
+git status: Para ver en que estado están nuestros archivos, si están en el "working dir" o "staging area".
+git commit/git commit -m "mensaje": Para guardar nuestros archivos del "staging area" en el repositorio local, con esto crearemos un "snapshot".
+git push: Para subir nuestros cambios del repositorio local al repositorio remoto(en la nube).
+git pull: Para traer los cambios que contenga el repositorio remoto a nuestro repositorio local.
+git clone: Para hacer una copia de un repositorio remoto de forma local.
+
+otros cmds:
+
+git log: Muestra un registro de commits, su hash y respectivo mensaje.
+git diff "file": Para comparar las diferencias de un archivo con sus versiones anteriores.
+git branch/git branch "rama": Muestra las ramas existentes en nuestro repositorio./Crea una rama nueva.
+git checkout "rama": para moverse entre ramas y poder trabajar sobre ellas de forma especifica.
+
+
+Working directory: Nuestra áre de trabajo.
+Staging area: Área donde estarán nuestros archivos listos para ser guardados.
+repository: Donde se encontrarán todos los archivos guardados.
+
+Donde descargar git:
+
+https://www.git-scm.com
+
