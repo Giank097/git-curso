@@ -7,11 +7,6 @@ Es un sistema de control de versiones que administra las distintas versiones de 
 - Mantiene un registro de quién y cuando se realizan cambios.
 - Tiene la caracteristica de poder revertir cambios en cualquier momento.
 - Nos brinda la capacidad de mantener nuestro repositorio de proyectos de forma local y remota.
-- Mantiene un historial de código.
-- Toma "snapshots" de nuestro código.
-- Haciendo un "commit" realizaremos "snapshots" de nuestro código.
-- Podemos visitar cada "snapshot" en cualquier momento.
-- Podemos hacer "stage" de nuestros archivos antes realizar un "commit".
 
 # Conceptos básicos:
 
