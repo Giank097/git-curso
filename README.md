@@ -1,4 +1,4 @@
-Qué es Git?
+# Qué es Git?
 
 Es un sistema de control de versiones que administra las distintas versiones de un programa.
 
